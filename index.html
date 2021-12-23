@@ -2,146 +2,171 @@
 <html lang="en">
 
 <head>
-    <hr style="height:1px;border-width:0;color:black;background-color:black">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arzu's Personal Page</title>
     <link rel="icon" href="Images/Arzu.png">
-
     <style>
+        a:link {
+            color: black;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:visited {
+            color: black;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgb(202, 178, 39);
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: white;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
         body {
             background-image: url("Images/GoldenConfetti.png");
             background-attachment: fixed;
             background-size: cover;
+            text-align: center;
+        }
+
+        .center {
+            vertical-align: middle;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        td {
+            text-align: center;
+        }
+
+        .hr {
+            height: 1px;
+            border-width: 0;
+            color: black;
+            background-color: black
+        }
+
+        .ul {
+            vertical-align: middle;
+            text-align: center;
+            background-color: white;
+            list-style-position: inside;
+        }
+        
+        h3 {
+            background-color: white;
+        }
+
+        .table{
+            color: black;
+            background-color: white;
         }
     </style>
 </head>
 
 <body>
+    <hr class="hr">
     <center>
         <table cellspacing="25">
             <tr>
                 <td><img src="Images/Arzu.png" alt="UnknownPicture" width="200" height="200"></td>
                 <td>
                     <h1>Arzu KARATAŞ</h1>
-                    <center>
-                        <p><em>Computer Engineer</em></p>
-                    </center>
-                    <center>
-                        <p>Software Developer to be.. ♥</p>
-                    </center>
-                    <center><a href="maito:arzukaratas95@gmail.com" target="_blank"><img src="/Images/EmailIcon.png"
-                                alt="Icon" width="25" height="25"></a>
-                        <a href="https://www.linkedin.com/in/arzukaratas/" target="_blank"><img
-                                src="/Images/LinkedinIcon.png" alt="Icon" width="25" height="25"></a>
-                        <a href="https://github.com/karatasarzu" target="_blank"><img src="/Images/GithubIcon.png"
-                                alt="Icon" width="25" height="25"></a>
-                    </center>
+                    <p><em>Computer Engineer</em></p>
+                    <p>Software Developer to be.. ♥</p>
+                    <a href="maito:arzukaratas95@gmail.com" target="_blank"><img src="/Images/EmailIcon.png" alt="Icon"
+                            width="25" height="25"></a>
+                    <a href="https://www.linkedin.com/in/arzukaratas/" target="_blank"><img
+                            src="/Images/LinkedinIcon.png" alt="Icon" width="25" height="25"></a>
+                    <a href="https://github.com/karatasarzu" target="_blank"><img src="/Images/GithubIcon.png"
+                            alt="Icon" width="25" height="25"></a>
                 </td>
             </tr>
         </table>
-        <hr style="height:1px;border-width:0;color:black;background-color:black">
-        <center>
-            <h3 style="background-color: white;">Education</h3>
-            <ul>
-                <table border="2" cellspacing="5" style="color: black; background-color: white;">
-                    <thead>
-                        <tr>
-                            <th>Dates</th>
-                            <th>Educational Institution</th>
-                        </tr>
-                    </thead>
+        <hr class="hr">
+        <h3>Education</h3>
+        <ul>
+            <table border="2" cellspacing="5" class="table">
+                <thead>
                     <tr>
-                        <td>09/2019 - Present</td>
-                        <td>Master of Science - Industrial Engineering / Çankaya University</td>
+                        <th>Dates</th>
+                        <th>Educational Institution</th>
                     </tr>
+                </thead>
+                <tr>
+                    <td>09/2019 - Present</td>
+                    <td>Master of Science - Industrial Engineering / Çankaya University</td>
+                </tr>
+                <tr>
+                    <td>09/2014 - 06/2019</td>
+                    <td>Bachelor of Science - Computer Engineering / Çankaya University</td>
+                </tr>
+            </table>
+        </ul>
+        <hr class="hr">
+        <h3>Work Experience</h3>
+        <ul>
+            <table border="2" cellspacing="5" class="table">
+                <thead>
                     <tr>
-                        <td>09/2014 - 06/2019</td>
-                        <td>Bachelor of Science - Computer Engineering / Çankaya University</td>
+                        <th>Dates</th>
+                        <th>Company</th>
+                        <th>Title</th>
                     </tr>
-                </table>
-            </ul>
-            <hr style="height:1px;border-width:0;color:black;background-color:black">
-            <h3 style="background-color: white;">Work Experience</h3>
-            <ul>
-                <table border="2" cellspacing="5" style="color: black; background-color: white;">
-                    <thead>
-                        <tr>
-                            <th>Dates</th>
-                            <th>Company</th>
-                            <th>Title</th>
-                        </tr>
-                    </thead>
-                    <tr>
-                        <td>07/2018 - 08/2018</td>
-                        <td>Elmes Bilişim, Yazılım, Elektronik, Haberleşme San. Tic. Ltd. Şti</td>
-                        <td>Game Development - Summer Internship</td>
-                    </tr>
-                    <tr>
-                        <td>07/2017 - 08/2017</td>
-                        <td>T.C. Sosyal Güvenlik Kurumu</td>
-                        <td>Software Development - Summer Internship</td>
-                    </tr>
-                </table>
-            </ul>
-            <hr style="height:1px;border-width:0;color:black;background-color:black">
-            <h3 style="background-color: white;">Certifications & Courses</h3>
-            <ul class="text-center" style="background-color: white; list-style-position: inside;">
-                <li>BilgeAdam Academy - Project Management, Business Analyst and Software Testing Expertise</li>
-                <li>Computer Operator Certificate</li>
-            </ul>
-            <hr style="height:1px;border-width:0;color:black;background-color:black">
-            <h3 style="background-color: white;">Languages</h3>
-            <ul class="text-center" style="background-color: white; list-style-position: inside;">
-                <li>English</li>
-                <li>Turkish(Native)</li>
-            </ul>
-            <hr style="height:1px;border-width:0;color:black;background-color:black">
-            <h3 style="background-color: white;">Skills</h3>
-            <ul class="text-center" style="background-color: white; list-style-position: inside;">
-                <li>Knowledge of Computer Network Technologies, Programming and Applicable languages</li>
-                <li>Basic knowledge of debugging tools</li>
-                <li>Ability to quickly learn to use new tools</li>
-                <li>Ability in C#/C++ with good understanding of object oriented development</li>
-                <li>Flexibility, ability to change priorities quickly, and capacity to handle multiple tasks</li>
-                <li>Applying programming and analysis skills with a detailed knowledge of the application</li>
-                <li>Strong attention to detail</li>
-                <li>Proficiency with HTML and CSS</li>
-                <li>Excellent communication skills (written and verbal)</li>
-
-            </ul>
-            <hr style="height:1px;border-width:0;color:black;background-color:black">
-
-            <style>
-                a:link {
-                    color: black;
-                    background-color: transparent;
-                    text-decoration: underline;
-                }
-
-                a:visited {
-                    color: black;
-                    background-color: transparent;
-                    text-decoration: none;
-                }
-
-                a:hover {
-                    color: rgb(202, 178, 39);
-                    background-color: transparent;
-                    text-decoration: none;
-                }
-
-                a:active {
-                    color: white;
-                    background-color: transparent;
-                    text-decoration: underline;
-                }
-            </style>
-            <a href="Hobbies.html" target="_blank">My Hobbies</a>
-            <a href="Contact.html" target="_blank">Contact</a>
-            <hr style="height:1px;border-width:0;color:black;background-color:black">
-        </center>
+                </thead>
+                <tr>
+                    <td>07/2018 - 08/2018</td>
+                    <td>Elmes Bilişim, Yazılım, Elektronik, Haberleşme San. Tic. Ltd. Şti</td>
+                    <td>Game Development - Summer Internship</td>
+                </tr>
+                <tr>
+                    <td>07/2017 - 08/2017</td>
+                    <td>T.C. Sosyal Güvenlik Kurumu</td>
+                    <td>Software Development - Summer Internship</td>
+                </tr>
+            </table>
+        </ul>
+        <hr class="hr">
+        <h3>Certifications & Courses</h3>
+        <ul class="ul">
+            <li>BilgeAdam Academy - Project Management, Business Analyst and Software Testing Expertise</li>
+            <li>Computer Operator Certificate</li>
+        </ul>
+        <hr class="hr">
+        <h3>Languages</h3>
+        <ul class="ul">
+            <li>English</li>
+            <li>Turkish(Native)</li>
+        </ul>
+        <hr class="hr">
+        <h3>Skills</h3>
+        <ul class="ul">
+            <li>Knowledge of Computer Network Technologies, Programming and Applicable languages</li>
+            <li>Basic knowledge of debugging tools</li>
+            <li>Ability to quickly learn to use new tools</li>
+            <li>Ability in C#/C++ with good understanding of object oriented development</li>
+            <li>Flexibility, ability to change priorities quickly, and capacity to handle multiple tasks</li>
+            <li>Applying programming and analysis skills with a detailed knowledge of the application</li>
+            <li>Strong attention to detail</li>
+            <li>Proficiency with HTML and CSS</li>
+            <li>Excellent communication skills (written and verbal)</li>
+        </ul>
+        <hr class="hr">
+        <a href="Hobbies.html" target="_blank">My Hobbies</a>
+        <a href="Contact.html" target="_blank">Contact</a>
+        <hr class="hr">
 </body>
 
 </html>

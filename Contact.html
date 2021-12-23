@@ -13,48 +13,58 @@
             background-attachment: fixed;
             background-size: cover;
         }
+
+        a:link {
+            color: black;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:visited {
+            color: black;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgb(202, 178, 39);
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: white;
+            background-color: transparent;
+            text-decoration: underline;
+        }
     </style>
 </head>
 
 <body>
+    <h1 style="padding: 10px;">My Contact Details</h1>
     <table cellspacing="25">
         <tr>
             <td>
-                <img src="Images/Arzu.png" alt="UnknownPicture" width="200" height="200">
-            </td>
-            <td>
-                <h1>My Contact Details</h1>
-                <style>
-                    a:link {
-                        color: black;
-                        background-color: transparent;
-                        text-decoration: underline;
-                    }
-
-                    a:visited {
-                        color: black;
-                        background-color: transparent;
-                        text-decoration: none;
-                    }
-
-                    a:hover {
-                        color: rgb(202, 178, 39);
-                        background-color: transparent;
-                        text-decoration: none;
-                    }
-
-                    a:active {
-                        color: white;
-                        background-color: transparent;
-                        text-decoration: underline;
-                    }
-                </style>
                 <p><a href="https://goo.gl/maps/cnjJh9CmJHvzwonU8" target="_blank"><img src="/Images/LocationIcon.png"
                             alt="Icon" width="25" height="25"">Mamak/Ankara/Turkey</a></p></p>
                 <p><a href=" maito:arzukaratas95@gmail.com" target="_blank"><img src="/Images/EmailIcon.png" alt="Icon"
                             width="25" height="25"">arzukaratas95@gmail.com</a></p>
                 <p><a href=" tel:+909099990099" target="_blank"><img src="/Images/PhoneIcon.png" alt="Icon" width="25"
                             height="25">+90 909 999 00 99</a></p>
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <form action="mailto:arzukaratas95@gmail.com" method="post" enctype="text/plain">
+                    <input type="text" name="yourName" placeholder="Enter your name" value=""><br>
+                    <input type="email" name="yourEmail" placeholder="Enter your e-mail" value=""><br>
+                    <br>
+                    <textarea name="yourMessage" placeholder="Enter your message" id="" cols="30" rows="10"></textarea>
+                    <br>
+                    <input type="submit" value="Send!" name=""><br>
+                </form>
             </td>
         </tr>
     </table>
